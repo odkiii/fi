@@ -1,0 +1,188 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+</head>
+
+<header>
+  <section class="header-main">
+    <img src="img/logo.jpg" alt="logo" class="header-logo">
+    <div><p>Группа ЭФБО-07-23<br>Балыбердин Иван Антонович</p></div>
+  </section>
+  <section class="header_nav">
+    <nav>
+      <ul class="header_nav-list">
+        <li class="header_nav-item">
+          <a href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="header_nav-item">
+          <a href="firstSem.html">
+            Первый семестр
+          </a>
+        </li>
+        <li class="header_nav-item">
+          <a href="econdSem.html">
+            Второй семестр
+          </a>
+        </li>
+        <li class="header_nav-item">
+          <a href="second.html">
+            Услуги
+          </a>
+        </li>
+        <li class="header_nav-item">
+          <a href="#">
+            Авторизация
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+</header>
+<main>
+  <div class="main-aside">
+    <aside>
+      <h3>Навигация по странице</h3>
+      <ul class="main_nav-list">
+        <li class="main_nav-item">
+          <a href="#">
+            Услуги
+          </a>
+        </li>
+        <li class="main_nav-item">
+          <a href="#">
+            Описание
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+  <div class="main-info">
+    <ul class="main-pictures">
+      <li class="main_pictures-item">
+        <img src="img/python.png" alt="first">
+        <p>Репетитор по Python</p>
+        <button class="order-button" >Заказать</button>
+      </li>
+      <li class="main_pictures-item" >
+        <img src="img/cpp.png" alt="second">
+        <p>Репетитор по C++</p>
+        <button class="order-button" >Заказать</button>
+      </li>
+      <li class="main_pictures-item" >
+        <img src="img/html.png" alt="third">
+        <p>Репетитор по HTML+CSS</p>
+        <button class="order-button">Заказать</button>
+      </li>
+      <li class="main_pictures-item">
+        <img src="img/python.png" alt="first">
+        <p>Репетитор по Python</p>
+        <button class="order-button" >Заказать</button>
+      </li>
+      <li class="main_pictures-item" >
+        <img src="img/cpp.png" alt="second">
+        <p>Репетитор по C++</p>
+        <button class="order-button" >Заказать</button>
+      </li>
+      <li class="main_pictures-item" >
+        <img src="img/html.png" alt="third">
+        <p>Репетитор по HTML+CSS</p>
+        <button class="order-button">Заказать</button>
+      </li>
+    </ul>
+    <section class="main-footer text-square">
+      Миньоны — маленькие забавные жёлтые существа с одним или двумя глазами. Это характерные персонажи серии мультфильмов «Гадкий я» и спин-оффы. Они самые популярные и из-за чего с ними начали продавать всякие разные товары. Эти жёлтые парни приносят большую часть комедии в мультфильме, также известны как стилер фильма. Часто говорят на своём непонятном языке, так называемом «миньонский», иногда переключаясь на английский. В некотором смысле они очень ребяческие, но в некоторых аспектах кажутся очень умными. Все миньоны - второстепенные персонажи в Миньонах (за исключением Кевина, Стюарта и Боба), главные герои в «Гадком я» и «Гадкий я 2» и второстепенные персонажи в «Гадком я 3» (за исключением Мэла). И Отто (четвёртый новенький миньон в Миньоны Грювитация.)
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="footer-info">© Балыбердин Иван Антонович, 2024</div>
+  <ul class="footer-links">
+    <li>
+      <a href="https://vk.com/odkey"><img src="img/vk.png" alt="vk" class="links"></a>
+    </li>
+    <li>
+      <a href="https://t.me/odkii"><img src="img/tg.png" alt="tg" class="links"></a>
+    </li>
+  </ul>
+</footer>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 style="margin-bottom: 15px">Свяжитесь с нами</h2>
+    <form id="contactForm">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" placeholder="Иван" required><br><br>
+
+      <label for="email">Электронная почта:</label>
+      <input type="email" id="email" name="email" placeholder="...@gmail.com" required><br><br>
+
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" placeholder="+7 (999) 999-99-99" pattern="[0-9\s\+\(\)]+" required><br><br>
+
+      <label for="country">Страна:</label>
+      <select id="country" name="country">
+        <option value="ru">Россия</option>
+        <option value="us">США</option>
+        <option value="de">Германия</option>
+      </select><br><br>
+
+      <label for="date">Дата рождения:</label>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="comments">Комментарии:</label>
+      <textarea id="comments" name="comments"></textarea><br><br>
+
+      <button type="submit" id="submit">Отправить</button>
+    </form>
+  </div>
+</div>
+<script>
+  const modal = document.getElementById("modal");
+  const btn = document.querySelectorAll(".order-button");
+  const btnLec = document.querySelectorAll(".button-lectures")
+  const lecturesDiv = document.querySelectorAll('.first_sem');
+  const span = document.getElementsByClassName("close")[0];
+  const form = document.getElementById("contactForm");
+
+  // const successMessage = document.getElementById("successMessage");
+
+  for (let i = 0; i<btn.length; i++) {
+    btn[i].onclick = function() {
+      modal.style.display = "block";
+    }
+  }
+
+
+
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  form.onsubmit = function(event) {
+    event.preventDefault();
+    if (form.checkValidity()) {
+      alert("Форма отправлена!")
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+</body>
+</html>
+
